@@ -1,4 +1,16 @@
 /****** PLACE YOUR CUSTOM STYLES HERE ******/
-.gradient-background {
+.gradient-background-blue {
     background-image: linear-gradient(-225deg, #3A7BD5 0%, #00D2FF 100%);
+}
+
+.gradient-background-gray {
+    background-image: linear-gradient(-225deg, #424C50 0%, #D2D6D7 100%);
+}
+
+.solid-background-gray {
+    background-image: linear-gradient(0deg, #424C50 0%, #424C50 100%);
+}
+
+.solid-background-yellow {
+    background-image: linear-gradient(0deg, #FFFDB7 0%, #FFFDB7 100%);
 }
