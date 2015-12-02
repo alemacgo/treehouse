@@ -26,3 +26,27 @@
 body {
     font-size: 16px;
 }
+
+.fair {
+    color: #DEDAD6;
+}
+
+.treehouse-green {
+    color: #67B469;
+}
+
+.project-link h4 {
+    font-weight: 400;
+    color: #67B469;
+}
+
+.project-link {
+    display: block;
+}
+
+.project-link:hover h4 {
+    color: #5AD07D;
+}
+.project-link:hover i {
+    color: #5AD07D;
+}

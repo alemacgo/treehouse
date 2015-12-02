@@ -743,7 +743,8 @@ footer.bg-dark li,
   margin-right: 0;
 }
 .btn:hover {
-  background: #67B469;
+  border-color: #5AD07D;
+  background: #5AD07D;
   color: #fff;
 }
 .btn-icon {
