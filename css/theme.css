@@ -3173,7 +3173,7 @@ img {
   margin-bottom: 24px;
 }
 .image-slider.height-70 .slides li {
-  height: 50vh;
+  height: 60vh;
   min-height: 250px;
 }
 @media all and (max-width: 767px) {

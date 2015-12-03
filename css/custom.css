@@ -58,20 +58,30 @@ body {
     transition: all 0.3s ease-in;
 }
 
-.bg-primary .list-inline i {
+.feature.boxed {
+    max-height: 210px;
+}
+
+h1 {
+    font-weight: 400;
+}
+
+.bg-light .btn {
+    border-style: none;
+}
+
+.bg-light .btn:hover {
     color: #fff;
 }
 
-.bg-primary .btn {
-    color: #67B469;
-    background-color: #fff;
+.bg-light .btn:visited:hover {
+    color: #fff;
 }
 
-.bg-primary .btn:visited {
-    color: #67B469;
-    background-color: #fff;
+.social-list {
+    margin-top: 25px;
 }
 
-.feature.boxed {
-    max-height: 210px;
+.bg-light .social-list a {
+    color: #292929;
 }
