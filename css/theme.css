@@ -301,7 +301,7 @@ h1,
   line-height: 64px;
 }
 h1.large {
-  font-size: 72px;
+  font-size: 55px;
   line-height: 80px;
   font-weight: 100;
 }
@@ -3173,8 +3173,8 @@ img {
   margin-bottom: 24px;
 }
 .image-slider.height-70 .slides li {
-  height: 70vh;
-  min-height: 600px;
+  height: 50vh;
+  min-height: 250px;
 }
 @media all and (max-width: 767px) {
   .image-slider.height-70 .slides li {

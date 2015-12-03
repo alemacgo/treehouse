@@ -38,6 +38,7 @@ body {
 .project-link h4 {
     font-weight: 400;
     color: #67B469;
+    font-size: 23px;
 }
 
 .project-link {
@@ -46,7 +47,31 @@ body {
 
 .project-link:hover h4 {
     color: #5AD07D;
+    transition: all 0.3s ease-in;
 }
 .project-link:hover i {
     color: #5AD07D;
+    transition: all 0.3s ease-in;
+}
+.project-link:hover .feature {
+    background-color: #3A4143;
+    transition: all 0.3s ease-in;
+}
+
+.bg-primary .list-inline i {
+    color: #fff;
+}
+
+.bg-primary .btn {
+    color: #67B469;
+    background-color: #fff;
+}
+
+.bg-primary .btn:visited {
+    color: #67B469;
+    background-color: #fff;
+}
+
+.feature.boxed {
+    max-height: 210px;
 }
