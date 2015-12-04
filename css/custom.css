@@ -47,15 +47,15 @@ body {
 
 .project-link:hover h4 {
     color: #5AD07D;
-    transition: all 0.3s ease-in;
+    transition: all 0.2s ease-in;
 }
 .project-link:hover i {
     color: #5AD07D;
-    transition: all 0.3s ease-in;
+    transition: all 0.2s ease-in;
 }
 .project-link:hover .feature {
-    background-color: #3A4143;
-    transition: all 0.3s ease-in;
+    background-color: #485154;
+    transition: all 0.2s ease-in;
 }
 
 .feature.boxed {
