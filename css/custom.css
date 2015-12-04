@@ -85,3 +85,7 @@ h1 {
 .bg-light .social-list a {
     color: #292929;
 }
+
+h1.uppercase {
+  letter-spacing: 6px;
+}

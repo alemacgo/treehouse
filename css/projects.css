@@ -1,0 +1,42 @@
+section {
+    padding: 60px 0;
+}
+
+.sublabel {
+    background-color: #292929;
+}
+
+.post-title h4 {
+    font-size: 25px;
+}
+
+.label {
+    font-size: 18px;
+}
+
+.sublabel {
+    font-size: 15px;
+}
+
+.post-snippet {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+section.footer {
+    padding-top: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
