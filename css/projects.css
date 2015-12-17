@@ -31,12 +31,15 @@ blockquote {
     font-style: normal;
 }
 
+.why {
+    font-size: 20px;
+    display: block;
+}
 
+.post-snippet {
+    margin-bottom: 30px;
+}
 
-
-
-
-
-
-
-
+img.center {
+    width: 900px;
+}
