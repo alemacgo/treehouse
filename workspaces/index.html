@@ -42,7 +42,8 @@
 		                            </li>
 		                        </ul>
 		                        <ul>
-		                            <li><i class="ti-star"></i> &nbsp;Make Treehouse easier to use</li>
+		                            <li><i class="ti-star"></i> &nbsp;Help people develop robust mental models of how different aspects of computing work</li>
+		                            <li><i class="ti-star"></i> &nbsp;Gain unique competitive advantages over other technology learning companies</li>
 		                        </ul>
 		                        <ul class="post-meta">
 		                            <li>
@@ -50,39 +51,50 @@
 		                            </li>
 		                        </ul>
 		                        <ul>
-		                            <li><i class="ti-stats-up"></i> &nbsp;Use existing metrics tracking student satisfaction</li>
+		                            <li><i class="ti-stats-up"></i> &nbsp;Develop other metrics that could track learning, like user interviews over long periods, and pre/post-activity assessments</li>
+		                            <li><i class="ti-stats-up"></i> &nbsp;Use existing metrics that track user engagement</li>
 		                        </ul>
                                 <br/>
-                                <p>Using Treehouse feels good every time because of its thoughtful design. From the Home dashboard to the Community section, it's one coherent, seamless experience. Product design is a never-ending task, and there's always opportunities to make something great even better. Here are some design opportunities I've identified.</p>
-
-                                <h4>Making video transcripts clickable</h4>
+                                <p>Workspaces are great at simulating a real professional programming environment, and lowering the complexity barriers of proper configuration, versions management, and command-line usage.</p>
+                                <p>There's an opportunity to create the next generation of programming learning environments, where the goal wouldn't be to mimic current tools that programmers work with every day, but to support the understanding of essential concepts that aren't easy to visualize. Here are some ideas.</p>
+                                <h4>Shortening the feedback loop</h4>
                                 <center>
-                                    <img width="700px" class="center" src="../img/ux/01.png"/>
+                                    <img width="700px" class="center" src="../img/workspaces/01.png"/>
                                 </center>
-                                <p>As an experienced programmer, I use Treehouse to learn specific technologies and refresh my knowledge of certain areas. One feature that I find particularly useful is being able to quickly glance at the whole video transcript of a lesson. It allows me to know if I can skip ahead to a certain point.</p>
-                                <p>I would love being able to just click on a line of text and be taken to that specific section of the video. It's a minor detail, but one that could improve the experience of power users significantly. It's probably easy to implement by setting the <code>currentTime</code> <a href="">property of HTML5 video</a> using vanilla JavaScript.</p>
+                                <p>When I'm working on a website, I use <a href="http://livereload.com/">LiveReload</a> to avoid the hassle of refreshing the page to see my changes. This shortened feedback loop is useful for experienced programmers, and I'd argue it's <strong>essential</strong> for newcomers that want to make fast progress. <a href="http://codepen.io/">Codepen</a>, despite not being geared specifically for learning, understands this and has developed a great product with immediate updates. On Treehouse's playgrounds, immediate updates would free the learner's working memory, resulting in increased focus and enhanced understanding.</p>
 
-                                <h4>Making giving feedback about code in the Community even easier</h4>
+                                <h4>Showing the data and the system status</h4>
                                 <center>
-                                    <img width="700px" class="center" src="../img/ux/02.png"/>
+                                    <video width="1000px" controls>
+                                    <source src="../video/workspaces/01.mp4" type="video/mp4">
+                                    A video illustrating ways to show the data and the system status to empower learning.
+                                    </video>
                                 </center>
-                                <p>If a code-related question is being asked in the Community, it's highly likely that the answers will feature a modified version of that code. We could try including it automatically in the answer. This is a change that can easily be validated by A/B testing, or by interviewing a subset of Treehouse's great mods to see how they feel about it.</p>
-                                <p>Also, if a question is tagged "Swift", all code that references it can probably be syntax-highlighted with this language's rules. The image above shows an answer by me on one occasion I forgot to use the <code>```swift</code> special syntax.
-
-                                <h4>Investigating why many students post duplicate questions</h4>
-                                <center>
-                                    <img width="700px" class="center" src="../img/ux/03.png"/>
-                                </center>
-                                <p>I think the way both Treehouse and Quora try to prevent duplicate questions by providing search results right when the user intends to post is very clever. However, there seems to be some students that are posting the exact same question with seconds of difference. Is this a user slip, a user mistake, or a system error? Can we help prevent it?</p>
+                                <p>Concepts like getting data from a remote server are tricky to grasp at first. Prasan does a great job at explaining this <a href="https://teamtreehouse.com/library/build-a-weather-app-with-swift-2/interacting-with-data-from-the-web/how-do-we-get-data-from-the-web">in his beginner iOS course</a>, and Workspaces could further support understanding by allowing students to visualize the data involved, the status of the client and the server, and the interactions between them.</p>
+                                <h4>Resources</h4>
+                                <div class="row">
+                                    <div class="col-sm-3 center">
+                                        <img width="200px" src="../img/workspaces/array.png"/>
+                                    </div>
+                                    <div class="col-sm-9">
+                                        <ul class="bullets">
+                                            <li>Bret Victor's incredibly inspiring essay on <a href="http://worrydream.com/LearnableProgramming/">Learnable Programming</a>.</li>
+                                            <li>Jason Brennan's <a href="http://nearthespeedoflight.com/article/2013_05_07_thoughts_on_thoughts_on_bret_victor___s____learnable_programming___">analysis</a> of the reactions to the essay above.</li>
+                                            <li><a href="http://blog.comealive.io/Working-Toward-Bret-Victors-Learnable-Programming/">ComeAlive</a> and <a href="http://www.fullstack.io/choc/">Choc</a>, two active projects that aim to make programming more easily learnable.</li>
+                                            <li>Mark Guzdial's <a href="https://computinged.wordpress.com/2012/09/28/learnable-programming-thinking-about-programming-languages-and-systems-in-a-new-way/">thoughts on the subject</a> presented in his excellent <a href="https://computinged.wordpress.com/">Computing Education blog</a>.</li>
+                                            <li>Edward Tufte's <a href="../img/workspaces/tufte.png">foundational work on information visualization</a>, essential for implementing these ideas.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <br/>
 		                        <ul class="post-meta">
 		                            <li>
 		                                <span class="label">How I can contribute</span>
 		                            </li>
 		                        </ul>
 		                        <ul class="bullets">
-                                    <li>Brainstorming with other designers and Treehouse students about how to further improve the experience.</li>
-                                    <li>Designing, prototyping and A/B testing subtle changes like these.</li>
-                                    <li>Performing <a href="https://www.nngroup.com/articles/ten-usability-heuristics/">heuristic evaluations</a> on the system to uncover more ways we could make it more usable.</li>
+                                    <li>Designing and prototyping this next generation of coding environments. My tools of choice are Sketch, Invision, Keynote and AfterEffects.</li>
+                                    <li>Keeping the team in sync with the numerous efforts around this topic. This is something I'm really passionate about.</li>
 		                        </ul>
 		                    </div>
         </div>
