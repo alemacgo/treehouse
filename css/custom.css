@@ -66,6 +66,10 @@ h1 {
     font-weight: 400;
 }
 
+h1.large {
+    font-weight: 400;
+}
+
 .bg-light .btn {
     border-style: none;
 }
