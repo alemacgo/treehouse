@@ -93,3 +93,9 @@ h1.large {
 h1.uppercase {
   letter-spacing: 6px;
 }
+
+@media all and (max-width: 767px) {
+  .arrow {
+    margin-top: 20px;
+  }
+}
