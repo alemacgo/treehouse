@@ -99,3 +99,7 @@ h1.uppercase {
     margin-top: 20px;
   }
 }
+
+.bg-secondary li a {
+    color: #000;
+}
